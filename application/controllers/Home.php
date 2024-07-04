@@ -19,9 +19,9 @@ class Home extends CI_Controller
 
 		$data = array(
 			'header' => 'SIKAS',
-			'pesan1' => 'Selamat Datang Di Sistem Informasi Pengelolaan Kas Masjid Besar Peusangan',
+			'pesan1' => 'Selamat Datang Di Sistem Informasi Pengelolaan Kas Sederhana',
 			'pesan2' => 'Dashboard Utama',
-			'pesan3' => 'Pengelolaan Kas Masjid Besar Peusangan',
+			'pesan3' => 'Pengelolaan Kas Sederhana',
 			'total_masuk' => 0,
 			'total_keluar' => 0,
 			'total' => 0,

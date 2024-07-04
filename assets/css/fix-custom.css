@@ -1,0 +1,41 @@
+@media (max-width: 768px) {
+
+    /* Example: Adjust styles for smaller devices */
+    .navbar-brand {
+        margin-left: 10px;
+        /* Adjust as needed */
+    }
+
+    .navbar-collapse.collapse {
+        display: none !important;
+        /* Hide collapsed menu */
+    }
+
+    .navbar-toggle {
+        display: block !important;
+        /* Show toggle button */
+    }
+
+    .navbar-nav {
+        float: none !important;
+        /* Center nav items */
+        margin-top: 7.5px;
+        /* Adjust as needed */
+    }
+
+    .navbar-nav>li {
+        float: none;
+    }
+
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .user-image {
+        max-width: 80px;
+        /* Adjust image size */
+        margin: 0 auto;
+        /* Center image */
+    }
+}
