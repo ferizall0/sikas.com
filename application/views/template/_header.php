@@ -30,9 +30,9 @@
                 <a class="navbar-brand" href="home">SIKAS</a>
                 <!-- SIKAS -> SISTEM INFORMASI KAS -->
             </div>
-            <div style="color: white; padding: 15px 50px 5px 50px; float: right; font-size: 16px;">
+            <!-- <div style="color: white; padding: 15px 50px 5px 50px; float: right; font-size: 16px;">
                 <a href="<?= site_url('login/logout') ?>" class="btn btn-danger square-btn-adjust">Logout</a>
-            </div>
+            </div> -->
         </nav>
         <!-- /. NAV TOP  -->
         <nav class="navbar-default navbar-side" role="navigation">
@@ -54,6 +54,9 @@
                     <li>
                         <a href="<?= site_url('rekap') ?>"><i class="glyphicon glyphicon-th-list"></i> Rekapitulasi
                             Kas</a>
+                            <div style="color: white; padding: 15px 50px 5px 50px; float: right; font-size: 16px;">
+                <a href="<?= site_url('login/logout') ?>" class="btn btn-danger square-btn-adjust">Logout</a>
+            </div>
                     </li>
                 </ul>
             </div>
